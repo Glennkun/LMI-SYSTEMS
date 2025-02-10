@@ -1,5 +1,5 @@
 <?php
-require_once 'db_connect/lmi_db.php';
+require_once 'lmi_db.php';
 
 // Get quick statistics for dashboard
 $stats = [];
