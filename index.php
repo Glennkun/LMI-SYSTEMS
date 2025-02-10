@@ -54,7 +54,7 @@ try {
     </style>
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
+  
 
     <div class="container mt-4">
         <div class="row mb-4">
