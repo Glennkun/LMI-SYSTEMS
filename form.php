@@ -1,5 +1,5 @@
 <?php
-require_once 'db_connect/lmi_db.php';
+require_once 'lmi_db.php';
 
 // Handle form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -184,7 +184,7 @@ if (isset($_GET['action'])) {
     <!-- Latest Font Awesome (Free) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
 <?php include 'navbar.php'; ?>
@@ -384,6 +384,6 @@ if (isset($_GET['action'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
-    <script src="js/form.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>
